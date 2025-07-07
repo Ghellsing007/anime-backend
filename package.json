@@ -1,0 +1,37 @@
+{
+  "name": "backend-gvsanime",
+  "version": "1.0.0",
+  "description": "Backend API para GVSanime - Orquestador de datos de anime",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon app.js",
+    "start": "node app.js",
+    "build": "echo 'No build step required'",
+    "health-check": "node scripts/health-check.js"
+  },
+  "keywords": ["anime", "api", "backend", "express", "mongodb"],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.11.0",
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=8.0.0"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.50.3",
+    "axios": "^1.10.0",
+    "cors": "^2.8.5",
+    "dotenv": "^17.0.1",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "jwks-rsa": "^3.2.0",
+    "mongoose": "^8.16.1",
+    "morgan": "^1.10.0",
+    "node-cron": "^4.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  },
+  "type": "module"
+}
