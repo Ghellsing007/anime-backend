@@ -28,7 +28,9 @@ const allowedOrigins = [
   'http://192.168.1.7:3000',
   'https://gvsanime.vercel.app', // Frontend en Vercel
   'https://gvsanime-frontend.vercel.app', // Alternativo
-  'https://gvsanime.vercel.app', // Dominio principal
+  'https://gvsanime.vercel.app', 
+  'https://jolly-tanuki-22b770.netlify.app/'
+  // Dominio principal
   process.env.FRONTEND_URL // Variable de entorno para el frontend
 ].filter(Boolean); // Eliminar valores undefined
 
